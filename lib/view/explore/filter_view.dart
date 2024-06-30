@@ -17,38 +17,19 @@
 //   List filterCatArr = [
 //     {
 //       "id": "1",
-//       "name": "Eggs",
+//       "name": "Chicken",
 //     },
 //     {
 //       "id": "2",
-//       "name": "Noodles & Pasta",
+//       "name": "Bell Pepper",
 //     },
 //     {
 //       "id": "3",
-//       "name": "Chips & Crisps",
+//       "name": "Beef",
 //     },
 //     {
 //       "id": "4",
-//       "name": "Fast Food",
-//     },
-//   ];
-
-//   List filterBrandArr = [
-//     {
-//       "id": "1",
-//       "name": "Individual Callection",
-//     },
-//     {
-//       "id": "2",
-//       "name": "Cocola",
-//     },
-//     {
-//       "id": "3",
-//       "name": "Ifad",
-//     },
-//     {
-//       "id": "4",
-//       "name": "Kazi Farmas",
+//       "name": "Baracuda",
 //     },
 //   ];
 
