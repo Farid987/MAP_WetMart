@@ -48,20 +48,7 @@ class _ExploreDetailViewState extends State<ExploreDetailView> {
               width: 20,
               height: 20,
             )),
-        /*actions: [
-          IconButton(
-              onPressed: () {
-                // Navigator.push(
-                //   context,
-                //  MaterialPageRoute(
-                //      builder: (context) => const FilterView()));
-              },
-              icon: Image.asset(
-                "assets/img/filter_ic.png",
-                width: 20,
-                height: 20,
-              )),
-        ],*/
+       
         title: Text(
           widget.eObj.catName ?? "",
           style: TextStyle(
