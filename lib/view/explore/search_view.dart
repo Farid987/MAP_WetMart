@@ -16,48 +16,7 @@
 //   TextEditingController txtSearch = TextEditingController();
 
 //   List searchArr = [
-//     {
-//       "name": "Egg Chicken Red",
-//       "icon": "assets/img/egg_chicken_red.png",
-//       "qty": "4",
-//       "unit": "pcs, Price",
-//       "price": "MYR1.99"
-//     },
-//     {
-//       "name": "Egg Chicken White",
-//       "icon": "assets/img/egg_chicken_white.png",
-//       "qty": "2",
-//       "unit": "pcs, Price",
-//       "price": "\$1.49"
-//     },
-//     {
-//       "name": "Egg Pasta",
-//       "icon": "assets/img/egg_pasta.png",
-//       "qty": "1",
-//       "unit": "kg, Price",
-//       "price": "\$3.99"
-//     },
-//     {
-//       "name": "Egg Noodles",
-//       "icon": "assets/img/egg_noodles.png",
-//       "qty": "1",
-//       "unit": "kg, Price",
-//       "price": "\$6.49"
-//     },
-//     {
-//       "name": "Mayonnais Eggless",
-//       "icon": "assets/img/mayinnars_eggless.png",
-//       "qty": "325",
-//       "unit": "ml, Price",
-//       "price": "\$2.99"
-//     },
-//     {
-//       "name": "Egg Noodles",
-//       "icon": "assets/img/egg_noodies_new.png",
-//       "qty": "2",
-//       "unit": "kg, Price",
-//       "price": "\$9.49"
-//     }
+
 //   ];
 
 //   @override
