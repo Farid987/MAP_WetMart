@@ -4,7 +4,6 @@ class CartItemModel {
   int? prodId;
   int? qty;
   int? catId;
-  int? brandId;
   int? typeId;
   String? name;
   String? detail;
@@ -32,7 +31,6 @@ class CartItemModel {
       this.prodId,
       this.qty,
       this.catId,
-      this.brandId,
       this.typeId,
       this.name,
       this.detail,
@@ -60,7 +58,6 @@ class CartItemModel {
     prodId = json['prod_id'];
     qty = json['qty'];
     catId = json['cat_id'];
-    brandId = json['brand_id'];
     typeId = json['type_id'];
     name = json['name'];
     detail = json['detail'];
@@ -90,7 +87,6 @@ class CartItemModel {
     data['prod_id'] = prodId;
     data['qty'] = qty;
     data['cat_id'] = catId;
-    data['brand_id'] = brandId;
     data['type_id'] = typeId;
     data['name'] = name;
     data['detail'] = detail;
