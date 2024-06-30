@@ -1,7 +1,6 @@
 class ProductDetailModel {
   int? prodId;
   int? catId;
-  int? brandId;
   int? typeId;
   int? orderId;
   int? qty;
@@ -28,7 +27,6 @@ class ProductDetailModel {
   ProductDetailModel(
       {this.prodId,
       this.catId,
-      this.brandId,
       this.typeId,
       this.name,
       this.detail,
@@ -52,7 +50,6 @@ class ProductDetailModel {
     orderId = json['order_id'];
     qty = json['qty'];
     catId = json['cat_id'];
-    brandId = json['brand_id'];
     typeId = json['type_id'];
     name = json['name'];
     image = json['image'];
@@ -79,7 +76,6 @@ class ProductDetailModel {
     final Map<String, dynamic> data = {};
     data['prod_id'] = prodId;
     data['cat_id'] = catId;
-    data['brand_id'] = brandId;
     data['type_id'] = typeId;
     data['order_id'] = orderId;
     data['qty'] = qty;
