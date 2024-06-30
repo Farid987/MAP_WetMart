@@ -47,14 +47,7 @@ class _ExploreViewState extends State<ExploreView> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: InkWell(
-              //onTap: () {
-              // Navigator.push(
-              //  context,
-              //MaterialPageRoute(
-              // builder: (context) => const SearchView(),
-              //    ),
-              //  );
-              // },
+        
               child: Container(
                 height: 45,
                 decoration: BoxDecoration(
