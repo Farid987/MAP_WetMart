@@ -4,7 +4,6 @@ class OfferProductModel {
   String? endDate;
   int? prodId;
   int? catId;
-  int? brandId;
   int? typeId;
   String? name;
   String? detail;
@@ -23,7 +22,6 @@ class OfferProductModel {
       this.endDate,
       this.prodId,
       this.catId,
-      this.brandId,
       this.typeId,
       this.name,
       this.detail,
@@ -42,7 +40,6 @@ class OfferProductModel {
     endDate = json['end_date'];
     prodId = json['prod_id'];
     catId = json['cat_id'];
-    brandId = json['brand_id'];
     typeId = json['type_id'];
     name = json['name'];
     detail = json['detail'];
@@ -63,7 +60,6 @@ class OfferProductModel {
     data['end_date'] = endDate;
     data['prod_id'] = prodId;
     data['cat_id'] = catId;
-    data['brand_id'] = brandId;
     data['type_id'] = typeId;
     data['name'] = name;
     data['detail'] = detail;
